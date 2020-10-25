@@ -14,11 +14,11 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <nav class="navbar navbar-light" action="/" method="post">
+    <nav class="navbar navbar-light">
       <h1 id="en" class="title">Alco Cards 🍺</h1>
       <h1 id="pl" class="title">Alko Karty 🍺</h1>
       <ul class="nav-item">
@@ -29,7 +29,6 @@
 
     <div class="container">
       <div class="row">
-        <form action="/" method="post"></form>
         <img
           class="img-fluid col-7 col-md-4 p-4 pulse"
           :key="img"
@@ -37,14 +36,15 @@
           src="welcome.jpg"
           name="image"
         />
-      
+
         <div id="rules" class="col-11 col-md-5">
           <h3 id="enShowRule"></h3>
           <h3 id="plShowRule"></h3>
         </div>
       </div>
-    </form>
     </div>
+
+    <script src="app.js"></script>
     <footer class="page-footer font-small indigo">
       <p>Copyright &copy; 2020</p>
     </footer>
