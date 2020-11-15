@@ -3,24 +3,8 @@ body {
     background-color: #132743;
 }
 
-#rules {
-    font-family: "Sansita Swashed", cursive;
-    background-color: #fffafa !important;
-    -webkit-box-shadow: 0px 0px 34px 4px rgba(0, 0, 0, 0.62);
-    -moz-box-shadow: 0px 0px 34px 4px rgba(0, 0, 0, 0.62);
-    box-shadow: 0px 0px 34px 4px rgba(0, 0, 0, 0.62);
-    color: #132743;
-    margin: auto;
-    border-radius: 6px 6px 6px 6px;
-    -moz-border-radius: 6px 6px 6px 6px;
-    -webkit-border-radius: 6px 6px 6px 6px;
-    border: 3px solid #000000;
-}
-
 .container {
-    padding-top: 20px;
     text-align: center;
-    height: 100%;
     width: 100%;
     -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -73,6 +57,39 @@ img:hover {
     cursor: pointer;
 }
 
+#rules {
+    font-family: "Sansita Swashed", cursive;
+    background-color: #fffafa !important;
+    -webkit-box-shadow: 0px 0px 34px 4px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 0px 0px 34px 4px rgba(0, 0, 0, 0.62);
+    box-shadow: 0px 0px 34px 4px rgba(0, 0, 0, 0.62);
+    color: #132743;
+    margin: auto;
+    border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    border: 3px solid #000000;
+}
+
+.page-footer.font-small.indigo {
+    font-family: "Sansita Swashed", cursive;
+    text-align: center;
+    background-color: #d7385e;
+    margin-top: 30px !important;
+    height: 7%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.page-footer.font-small.indigo p {
+    font-size: 15px !important;
+    padding-top: 12px;
+    font-weight: 300;
+}
+
+
 .pulse {
     -webkit-animation-name: pulse;
     animation-name: pulse;
@@ -116,20 +133,54 @@ img:hover {
     }
 }
 
-.page-footer.font-small.indigo {
-    font-family: "Sansita Swashed", cursive;
-    text-align: center;
-    background-color: #d7385e;
-    margin-top: 30px !important;
-    height: 7%;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
+
+
+@media (orientation: portrait) {
+    .title {
+        font-size: 25px;
+    }
+
+    .h3,
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .page-footer.font-small.indigo {
+        height: 7%;
+    }
+
+    .page-footer.font-small.indigo p {
+        font-size: 12px !important;
+        padding-top: 3px;
+    }
+
 }
 
-.page-footer.font-small.indigo p {
-    font-size: 15px !important;
-    padding-top: 12px;
-    font-weight: 300;
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    .title {
+        font-size: 20px;
+    }
+
+    .navbar.navbar-light {
+        padding-bottom: 10px;
+    }
+
+    .h3,
+    h3 {
+        font-size: 1rem;
+    }
+
+    #rules {
+        margin-bottom: 5%;
+    }
+
+    .page-footer.font-small.indigo {
+        height: 5% !important;
+    }
+
+    .page-footer.font-small.indigo p {
+        font-size: 8px !important;
+        padding-top: 1px;
+    }
 }
