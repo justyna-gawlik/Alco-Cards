@@ -4,14 +4,11 @@
 
 ## Table of contents
 
-- [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Features](#features)
 
-## Screenshots
-
-![Example screenshot](./alco.png)
+![](alco.gif)
 
 ## Technologies
 
