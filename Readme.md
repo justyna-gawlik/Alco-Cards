@@ -1,6 +1,6 @@
 # Alco Cards
 
-> Alco Cards is an alcoholic game where each card has it's own challenge. This is an application that can be used during the meetings with friends, parties etc. You can use it either on computer or on your phone.
+> Alco Cards is an alcoholic game where each card has it's own challenge. This is an application that can be used during the meetings with friends, parties etc. You can use it either on computer or phone.
 
 ## Table of contents
 
@@ -26,6 +26,6 @@ Link to application:
 
 ## Features
 
-- There are various challenges
-- Every card has its own challenge
-- Great entertainment during the parties or meetings with friends
+- There are various challenges- every 🃏 has its own challenge
+- You can change 👅 of the game (polish/english)
+- Great entertainment during the parties or meetings 🍺
