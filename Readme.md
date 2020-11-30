@@ -17,9 +17,9 @@
 
 ## Setup
 
-To run this project install it locally and open index.html using your explorer (Google Chrome, Firefox etc.)
+To run this project install it locally and open index.html live server using for example Visual Studio Code or Atom.
 
-Link to application:
+You can use it also here:
 
 ## Features
 
